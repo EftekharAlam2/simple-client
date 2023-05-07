@@ -24,7 +24,7 @@ const Users = () => {
 
   return (
     <div>
-      <h2>The user length is {users.length}</h2>
+      <h2>User length is {users.length}</h2>
       <div>
         {users.map((user) => (
           <p key={user._id}>
