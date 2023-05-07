@@ -26,9 +26,9 @@ function App() {
     <>
       <h1>Simple Website</h1>
       <form onSubmit={handleSubmit}>
-        <input type="text" name="name" id="1" />
+        <input type="text" name="name" id="1" required />
         <br />
-        <input type="email" name="email" id="2" />
+        <input type="email" name="email" id="2" required />
         <br />
         <input type="submit" value="add-user" />
       </form>
